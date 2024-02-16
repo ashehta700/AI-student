@@ -1,0 +1,335 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700;700&display=swap'); */
+
+@import url('./css2.css');
+:root {
+    --main-color: #0c0303;
+    --second-color: black;
+    --icon-Color: rgb(161, 161, 161);
+    --btn-color: #537dae;
+    --yell-color: rgb(177, 150, 1);
+    --background-color-nav: #093f7e;
+    --top: 75px
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.rtl,
+#tapsit {
+    direction: rtl;
+}
+
+.contentGoals {
+    background-image: url(../img/background1.png);
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.background-color-navColor {
+    background-color: #09407eaf;
+}
+
+.background-color-nav {
+    color: var(--background-color-nav);
+}
+
+.yell-color {
+    color: var(--yell-color);
+}
+
+.animate__fadeIn {
+    animation-duration: 4s;
+    /* don't forget to set a duration! */
+}
+
+.animate__fadeIn.Learn {
+    animation-duration: 1s;
+    /* don't forget to set a duration! */
+}
+
+
+/* start Login Page */
+
+.LoginPage {
+    background-color: rgb(126 234 243 / 16%);
+    /* height: 100vh; */
+    background-image: url(../img/wave\ \(14\).svg);
+    background-position: 76% 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    direction: rtl;
+}
+
+.content {
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px 3px;
+    border: #a7a7a7 solid 1px;
+}
+
+.content img {
+    width: 15%;
+    right: 50%;
+    top: 0;
+    transform: translate(50%, -65%);
+    background-color: white;
+    border-radius: 50%;
+}
+
+content h5 {
+    background-color: var(--main-color);
+}
+
+.btnLogin {
+    background-color: var(--btn-color);
+    color: white;
+    padding: 10px 0;
+    border: 2px solid var(--btn-color);
+    transition: all 0.5s;
+}
+
+.btnLogin:hover {
+    background-color: white;
+    color: var(--btn-color);
+    padding: 10px 0;
+    border: 2px solid var(--btn-color);
+}
+
+
+/* end Login Page */
+
+.navbar {
+    /* background-color: #185970 ; */
+    background-color: var(--background-color-nav);
+    z-index: 999999;
+}
+
+.header {
+    background-image: url(../img/Smart-ERP-1400x640.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.header2 {
+    /* width: 100%;
+    height: 100vh; */
+    /* background-image: url(../img/background1.png);
+    background-size: cover;
+    background-position: 50% 0; */
+    background-image: url(../img/9.svg);
+    background-position: 0px 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.decoration {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.decoration::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 4px;
+    bottom: 0;
+    right: 10%;
+    transform: translateY(-100%);
+    background-color: var(--background-color-nav);
+}
+
+.chatContent {
+    background-color: rgb(177, 150, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1%;
+    left: 1%;
+    position: fixed;
+}
+
+.h2Header {
+    position: relative;
+}
+
+.h2Header::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 5px;
+    bottom: -60%;
+    right: 50%;
+    transform: translate(50%);
+    background-color: var(--background-color-nav);
+}
+
+.btnLink {
+    padding: 13px 30px;
+    color: white;
+    background-color: var(--background-color-nav);
+    text-decoration: none;
+    border-radius: 7px;
+    box-shadow: 10px 10px 34px #000000b5;
+}
+
+.back {
+    padding: 7px 10px;
+    color: white;
+    background-color: rgb(90, 0, 0);
+    text-decoration: none;
+    border-radius: 7px;
+    box-shadow: 10px 10px 34px #000000b5;
+}
+
+.contentQuiz h4 {
+    color: #b50303;
+    padding-right: 17px;
+    text-align: right !important;
+}
+
+
+/* start Footer */
+
+footer {
+    background-color: var(--background-color-nav);
+    color: white;
+    direction: rtl;
+}
+
+video {
+    width: 100%;
+}
+
+
+/* Start bage Learning */
+
+.livedevquestion {
+    background-color: var(--btn-color);
+}
+
+.contentQuiz {
+    background-color: rgba(231, 232, 235, 0.836);
+    box-shadow: 14px 14px 22px -2px;
+    border-radius: 10px;
+}
+
+.numberQuestion {
+    border-bottom: 2px solid rgb(211, 211, 211);
+}
+
+#SuggestedSources {
+    background-image: url(../img/9.svg);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.glass {
+    direction: ltr !important;
+}
+
+.radio-input {
+    display: flex;
+    /* height: 210px; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.glass {
+    z-index: 2;
+    height: 110%;
+    width: 95px;
+    margin-right: 25px;
+    padding: 8px;
+    background-color: rgba(190, 189, 189, 0.5);
+    border-radius: 35px;
+    box-shadow: rgba(50, 50, 93, 0.2) 0px 25px 50px -10px, rgba(0, 0, 0, 0.25) 0px 10px 30px -15px, rgba(10, 37, 64, 0.26) 0px -2px 6px 0px inset;
+    backdrop-filter: blur(8px);
+}
+
+.glass-inner {
+    width: 100%;
+    height: 100%;
+    border-color: rgba(245, 245, 245, 0.45);
+    border-width: 9px;
+    border-style: solid;
+    border-radius: 30px
+}
+
+.selector {
+    padding: 10px 10px 0 56px;
+}
+
+.choice {
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.choice>div {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    z-index: 0;
+}
+
+.choice-circle {
+    appearance: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border-width: 9px;
+    border-style: solid;
+    border-color: rgb(195 195 195 / 45%);
+    cursor: pointer;
+    box-shadow: 0px 0px 20px -13px gray, 0px 0px 20px -14px #121010 inset;
+}
+
+.ball {
+    z-index: 1;
+    position: absolute;
+    inset: 0px;
+    transform: translateX(-95px);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -10px 10px 0px inset, rgba(0, 0, 0, 0.15) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.1) 0px -40px 20px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, 0px -1px 15px -8px rgba(0, 0, 0, 0.09);
+    border-radius: 100%;
+    transition: transform 800ms cubic-bezier(1, -0.4, 0, 1.4);
+    background-color: rgb(232, 232, 232, 1);
+}
+
+.choice-circle:checked+.ball {
+    transform: translateX(0px);
+}
+
+.choice-name {
+    color: rgb(51, 51, 51);
+    font-size: 28px;
+    font-weight: 900;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.btnQuiz {
+    background-color: green;
+    color: white;
+}
+
+;
+.btnQuiz:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: green !important;
+}
